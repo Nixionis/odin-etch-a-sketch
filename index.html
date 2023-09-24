@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header class="flex-center">Etch-a-Sketch</header>
+    <main class="flex-center">
+      <div class="main-container flex-center">
+        <div class="menu-container">
+          <button id="btn-random">Random Colors</button>
+          <input type="range" min="1" max="100" value="16" id="size-slider" />
+          <p class="menu-label" id="slider-label">Grid Size: 16x16</p>
+          <button id="btn-clear">Clear</button>
+        </div>
+        <div class="sketch-container"></div>
+      </div>
+    </main>
+    <footer class="flex-center">Made by Nixion</footer>
+  </body>
+</html>
